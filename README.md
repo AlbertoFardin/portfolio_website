@@ -4,17 +4,10 @@
 <img width="450" src="./logo.svg" alt="Alberto Fardin">
 </p>
 
-<h1 align="center">
-  PORTFOLIO
-</h1>
-
 <div align="center">
   This is my personal web site and portfolio online.
 
-  Built with
-
-- [ReactJs](https://facebook.github.io/react/) - The web library used
-- [Npm](https://www.npmjs.com/) - Dependency Management
+  Built with [ReactJs](https://facebook.github.io/react/) and [Npm](https://www.npmjs.com/)
 
 </div>
 
@@ -22,7 +15,7 @@
 
 Install dependencies using the command `npm install`
 
-Start local application with command `npm run dev` and open `https://local.wardacloud.com` from the browser.
+Start local application with command `npm run dev` and open `https://local.portfolio.com` from the browser.
 
 ## Component's Unit Test
 

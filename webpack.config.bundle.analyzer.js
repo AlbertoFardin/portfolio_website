@@ -16,7 +16,7 @@ module.exports = merge(common, {
       directory: path.join(__dirname, "./"),
     },
     historyApiFallback: true,
-    allowedHosts: ["local.wardacloud.com"],
+    allowedHosts: ["local.portfolio.com"],
     host: "0.0.0.0",
     port: 443,
   },
