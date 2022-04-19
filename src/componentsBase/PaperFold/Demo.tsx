@@ -1,23 +1,22 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import FormControl from "@material-ui/core/FormControl";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import FormLabel from "@material-ui/core/FormLabel";
-import Paper from "@material-ui/core/Paper";
-import Radio from "@material-ui/core/Radio";
-import RadioGroup from "@material-ui/core/RadioGroup";
-import TextField from "@material-ui/core/TextField";
-import * as React from "react";
-import Btn from "../Btn";
-import DemoColorToolbar from "../__stories__/DemoColorToolbar";
-import PaperFold from "./";
+import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormLabel from '@material-ui/core/FormLabel';
+import Paper from '@material-ui/core/Paper';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import TextField from '@material-ui/core/TextField';
+import * as React from 'react';
+import Btn from '../Btn';
+import PaperFold from './';
 
 class BtnDemo extends React.Component<any, { [key: string]: any }> {
   constructor(props) {
     super(props);
     this.state = {
       open: true,
-      anchorHorizontal: "left",
-      anchorVertical: "top",
+      anchorHorizontal: 'left',
+      anchorVertical: 'top',
       size: 15,
     };
   }
@@ -38,64 +37,64 @@ class BtnDemo extends React.Component<any, { [key: string]: any }> {
   public getConfigBox = () => {
     const { open, anchorHorizontal, anchorVertical } = this.state;
     return (
-      <Paper style={{ width: 300, margin: 20, overflow: "hidden" }}>
+      <Paper style={{ width: 300, margin: 20, overflow: 'hidden' }}>
         <div
           style={{
             padding: 20,
-            display: "flex",
-            alignItems: "stretch",
-            flexDirection: "column",
+            display: 'flex',
+            alignItems: 'stretch',
+            flexDirection: 'column',
           }}
         >
           <Btn
             {...{
-              color: "#00f",
-              icon: open ? "check_box" : "check_box_outline_blank",
-              label: "OPEN",
+              color: '#00f',
+              icon: open ? 'check_box' : 'check_box_outline_blank',
+              label: 'OPEN',
               onClick: () => {
                 this.setState({ open: !open });
               },
             }}
           />
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <FormControl component="fieldset">
-              <FormLabel component="legend">anchorHorizontal</FormLabel>
+          <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <FormControl component='fieldset'>
+              <FormLabel component='legend'>anchorHorizontal</FormLabel>
               <RadioGroup
                 value={anchorHorizontal}
                 onChange={this.setAnchorHorizontal}
               >
                 <FormControlLabel
-                  value="left"
+                  value='left'
                   control={<Radio />}
-                  label="left"
+                  label='left'
                 />
                 <FormControlLabel
-                  value="right"
+                  value='right'
                   control={<Radio />}
-                  label="right"
+                  label='right'
                 />
               </RadioGroup>
             </FormControl>
             <div style={{ flex: 1 }} />
-            <FormControl component="fieldset">
-              <FormLabel component="legend">anchorVertical</FormLabel>
+            <FormControl component='fieldset'>
+              <FormLabel component='legend'>anchorVertical</FormLabel>
               <RadioGroup
                 value={anchorVertical}
                 onChange={this.setAnchorVertical}
               >
-                <FormControlLabel value="top" control={<Radio />} label="top" />
+                <FormControlLabel value='top' control={<Radio />} label='top' />
                 <FormControlLabel
-                  value="bottom"
+                  value='bottom'
                   control={<Radio />}
-                  label="bottom"
+                  label='bottom'
                 />
               </RadioGroup>
             </FormControl>
           </div>
           <TextField
-            label="size"
+            label='size'
             value={String(this.state.size)}
-            type="number"
+            type='number'
             onChange={this.setSize}
           />
         </div>
@@ -107,46 +106,44 @@ class BtnDemo extends React.Component<any, { [key: string]: any }> {
     return (
       <div
         style={{
-          height: "100%",
-          overflow: "auto",
-          display: "flex",
-          alignItems: "stretch",
-          flexDirection: "column",
+          height: '100%',
+          overflow: 'auto',
+          display: 'flex',
+          alignItems: 'stretch',
+          flexDirection: 'column',
           flex: 1,
         }}
       >
-        <DemoColorToolbar onChange={this.setColor} zIndex={0} />
-
         <div
           style={{
-            display: "flex",
-            alignItems: "stretch",
-            flexDirection: "row",
+            display: 'flex',
+            alignItems: 'stretch',
+            flexDirection: 'row',
             flex: 1,
           }}
         >
           <div
             style={{
-              display: "flex",
-              alignItems: "center",
-              flexDirection: "column",
+              display: 'flex',
+              alignItems: 'center',
+              flexDirection: 'column',
               flex: 1,
             }}
           >
             <div
               style={{
-                display: "flex",
-                alignItems: "center",
-                flexDirection: "row",
+                display: 'flex',
+                alignItems: 'center',
+                flexDirection: 'row',
                 flex: 1,
               }}
             >
               <div
                 style={{
-                  border: "1px solid #000",
+                  border: '1px solid #000',
                   borderRadius: this.state.size,
-                  position: "relative",
-                  background: "#ccf",
+                  position: 'relative',
+                  background: '#ccf',
                   width: 120,
                   height: 120,
                 }}

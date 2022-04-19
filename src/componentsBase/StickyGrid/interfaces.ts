@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { IBtn } from "../Btn";
-import { PreviewType } from "../Preview";
-import { IPaperFold } from "../PaperFold";
-import { IActions } from "../ActionsMenu";
-import { IRenderer } from "../StickyTable";
+import { IBtn } from '../Btn';
+import { PreviewType } from '../Preview';
+import { IPaperFold } from '../PaperFold';
+import { IActions } from '../ActionsMenu';
+import { IRenderer } from '../StickyTable';
 
 export interface ILeftData {
   rowIndex: number;
@@ -21,27 +21,27 @@ export interface IRendererLeft extends IRenderer {
 }
 
 export enum TypeCell {
-  Thumbnail = "thumbnail",
-  MultipleThumbnail = "multiplethumbnail",
-  String = "string",
-  MultipleString = "multiplestring",
-  SimpleDate = "simpledate",
-  Timestamp = "timestamp",
-  Icon = "icon",
-  Bool = "bool",
-  Avatar = "avatar",
-  User = "user",
-  MultipleAvatar = "multipleavatar",
-  DictionaryEntry = "dictionaryEntry",
-  DictionaryEntries = "dictionaryEntries",
-  Percentage = "percentage",
-  Category = "category",
+  Thumbnail = 'thumbnail',
+  MultipleThumbnail = 'multiplethumbnail',
+  String = 'string',
+  MultipleString = 'multiplestring',
+  SimpleDate = 'simpledate',
+  Timestamp = 'timestamp',
+  Icon = 'icon',
+  Bool = 'bool',
+  Avatar = 'avatar',
+  User = 'user',
+  MultipleAvatar = 'multipleavatar',
+  DictionaryEntry = 'dictionaryEntry',
+  DictionaryEntries = 'dictionaryEntries',
+  Percentage = 'percentage',
+  Category = 'category',
 }
 
 export enum ISortOrder {
-  ASC = "ASC",
-  DESC = "DESC",
-  NONE = "NONE",
+  ASC = 'ASC',
+  DESC = 'DESC',
+  NONE = 'NONE',
 }
 
 export interface ISortType {
@@ -76,9 +76,9 @@ export interface SortColumn {
 }
 
 export const actionsbarItemsTypes = {
-  SelectField: "SelectField",
-  TextareaField: "TextareaField",
-  ButtonUpload: "ButtonUpload",
+  SelectField: 'SelectField',
+  TextareaField: 'TextareaField',
+  ButtonUpload: 'ButtonUpload',
 };
 
 export interface SearchColumnInterface {
@@ -87,7 +87,7 @@ export interface SearchColumnInterface {
   enabledColumns: {
     columnId: string;
     i18n: {
-      "search.placeHolder": string;
+      'search.placeHolder': string;
     };
     value: string;
   }[];

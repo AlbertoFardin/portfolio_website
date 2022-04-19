@@ -1,16 +1,14 @@
-import * as React from "react";
-import Btn from "../../Btn";
-import Cell from "../Cell";
-import CellAvatar from "./CellAvatar";
-import CellIcon from "./CellIcon";
-import CellThumbnails from "./CellThumbnails";
-import CellString from "./CellString";
-import CellCategory from "./CellCategory";
-import ICellContent from "./ICellContent";
-import isEmpty from "lodash-es/isEmpty";
-import isEqual from "lodash-es/isEqual";
-import { TypeCell } from "../interfaces";
-import getValueString from "./getValueString";
+import * as React from 'react';
+import Btn from '../../Btn';
+import Cell from '../Cell';
+import CellIcon from './CellIcon';
+import CellThumbnails from './CellThumbnails';
+import CellString from './CellString';
+import ICellContent from './ICellContent';
+import isEmpty from 'lodash-es/isEmpty';
+import isEqual from 'lodash-es/isEqual';
+import { TypeCell } from '../interfaces';
+import getValueString from './getValueString';
 
 const CellContent = ({ columnIndex, rowIndex, style, data }: ICellContent) => {
   const {
@@ -75,10 +73,10 @@ const CellContent = ({ columnIndex, rowIndex, style, data }: ICellContent) => {
         onDoubleClick={rowOnDoubleClick}
         onContextMenu={rowOnContextMenu}
         children={
-          <div style={{ width: "-webkit-fill-available" }}>
+          <div style={{ width: '-webkit-fill-available' }}>
             <Btn
-              variant="bold"
-              label="?"
+              variant='bold'
+              label='?'
               style={{ margin: 0 }}
               {...mapError[value]}
             />
@@ -106,40 +104,9 @@ const CellContent = ({ columnIndex, rowIndex, style, data }: ICellContent) => {
           onDoubleClick={rowOnDoubleClick}
         />
       );
-    case TypeCell.MultipleAvatar:
-    case TypeCell.Avatar:
-      return (
-        <CellAvatar
-          value={value}
-          rowIndex={rowIndex}
-          columnIndex={columnIndex}
-          selected={selected}
-          focused={focused}
-          style={style}
-          contextmenu={rowContextmenu}
-          onContextMenu={rowOnContextMenu}
-          onClick={rowOnClick}
-          onDoubleClick={rowOnDoubleClick}
-        />
-      );
     case TypeCell.Icon:
       return (
         <CellIcon
-          value={value}
-          rowIndex={rowIndex}
-          columnIndex={columnIndex}
-          selected={selected}
-          focused={focused}
-          style={style}
-          contextmenu={rowContextmenu}
-          onContextMenu={rowOnContextMenu}
-          onClick={rowOnClick}
-          onDoubleClick={rowOnDoubleClick}
-        />
-      );
-    case TypeCell.Category:
-      return (
-        <CellCategory
           value={value}
           rowIndex={rowIndex}
           columnIndex={columnIndex}

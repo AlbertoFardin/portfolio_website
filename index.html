@@ -1,98 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <!-- add favicon from site https://www.favicon-generator.org/-->
-    <!-- START FAVICON-->
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- END FAVICON-->
 
-    <title>Seecommerce</title>
+<head>
+  <meta charset="UTF-8" />
+  <!-- add favicon from site https://www.favicon-generator.org/-->
+  <!-- START FAVICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- END FAVICON-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta
-      name="theme-color"
-      content="#9625e8"
-    />
-    <!-- insertion-point-jss -->
+  <title>Alberto Fardin | creative web developer</title>
 
-    <!-- disable contexmenu from all app -->
-    <script type="text/javascript">
-      if (document.addEventListener) {
-        document.addEventListener(
-          "contextmenu",
-          function (e) {
-            e.preventDefault();
-          },
-          false
-        );
-      } else {
-        document.attachEvent("oncontextmenu", function () {
-          window.event.returnValue = false;
-        });
-      }
+  <style>
+    html,
+    body,
+    #app {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      user-select: none;
+    }
 
-      function ready () { 
-        function loadjscssfile(filename, filetype){
-          if (filetype=="js"){ //if filename is a external JavaScript file
-              var fileref=document.createElement('script');
-              fileref.setAttribute("type","text/javascript");
-              fileref.setAttribute("src", filename);
-              fileref.setAttribute("defer", true);
-          }
-          else if (filetype=="css"){ //if filename is an external CSS file
-              var fileref=document.createElement("link")
-              fileref.setAttribute("rel", "stylesheet")
-              fileref.setAttribute("type", "text/css")
-              fileref.setAttribute("href", filename)
-          }
-          if (typeof fileref!="undefined")
-              document.getElementsByTagName("head")[0].appendChild(fileref)
-      }
+    @import url("https://fonts.googleapis.com/icon?family=Material+Icons&display=swap");
 
-      fetch(`/version.json?random=${Math.floor(Math.random()*100000000)}`)
-        .then((res) => res.json()).then(
-          (obj)=> 
-        {
-          loadjscssfile(`/build.js?hash=${obj.lastCommitHash}`, 'js');
-          loadjscssfile(`/build.css?hash=${obj.lastCommitHash}`, 'css');
-        }
+    .material-icons {
+      font-family: "Material Icons";
+      -webkit-font-smoothing: antialiased;
+      line-height: 1;
+    }
+
+    @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600&display=swap");
+  </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#9625e8" />
+  <!-- insertion-point-jss -->
+
+  <!-- disable contexmenu from all app -->
+  <script type="text/javascript">
+    if(document.addEventListener) {
+      document.addEventListener(
+        "contextmenu",
+        function (e) {
+          e.preventDefault();
+        },
+        false
       );
+    } else {
+      document.attachEvent("oncontextmenu", function () {
+        window.event.returnValue = false;
+      });
+    }
+
+    function ready() {
+      function loadjscssfile(filename, filetype) {
+        if(filetype == "js") { //if filename is a external JavaScript file
+          var fileref = document.createElement('script');
+          fileref.setAttribute("type", "text/javascript");
+          fileref.setAttribute("src", filename);
+          fileref.setAttribute("defer", true);
+        }
+        else if(filetype == "css") { //if filename is an external CSS file
+          var fileref = document.createElement("link")
+          fileref.setAttribute("rel", "stylesheet")
+          fileref.setAttribute("type", "text/css")
+          fileref.setAttribute("href", filename)
+        }
+        if(typeof fileref != "undefined")
+          document.getElementsByTagName("head")[0].appendChild(fileref)
+      }
+
+      fetch(`/version.json?random=${Math.floor(Math.random() * 100000000)}`)
+        .then((res) => res.json()).then(
+          (obj) => {
+            loadjscssfile(`/build.js?hash=${obj.lastCommitHash}`, 'js');
+            loadjscssfile(`/build.css?hash=${obj.lastCommitHash}`, 'css');
+          }
+        );
     }
 
     document.addEventListener("DOMContentLoaded", ready);
-    </script>
+  </script>
 
-    <style>
-      /* DrawerFullscreen fix CSS when it is outside the window */
-      body {
-        overflow: hidden;
-      }
-    </style>
+</head>
 
-  <script src="/webviewer/lib/webviewer.min.js"></script>
+<body>
+  <div id="app"></div>
+</body>
 
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
 </html>

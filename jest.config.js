@@ -4,16 +4,13 @@ module.exports = {
   testEnvironment: "jsdom",
   reporters: ["default", "jest-junit"],
   roots: ["<rootDir>/src/"],
-  setupFiles: ["./src/setupJest.js"],
-  moduleNameMapper: {
-    "\\.(css|less|scss)$": "identity-obj-proxy",
-  },
+  setupFiles: ["./jest.setupFiles.js"],
   testEnvironmentOptions: {
     userAgent: "Agent/00",
   },
-  testMatch: ["**/?(*.)+(spec|test).[jt]s?(x)", "**/?(*.)+(docker).[jt]s?(x)"],
+  testMatch: ["**/?(*.)+(spec|test).[jt]s?(x)"],
   transformIgnorePatterns: [
     "<rootDir>/node_modules/(?!(lodash-es.*?\\.js$|@warda\\/library-ui))",
   ],
-  globalSetup: "./src/jest.globalSetup.ts",
+  globalSetup: "./jest.globalSetup.js",
 };

@@ -1,14 +1,19 @@
 <!-- markdownlint-disable -->
 
 <p align="center">
-<img width="450" src="./logo.svg" alt="Alberto Fardin">
+<img width="450" src="./static/logo.svg" alt="Alberto Fardin">
 </p>
 
 <div align="center">
   This is my personal web site and portfolio online.
 
-  Built with [ReactJs](https://facebook.github.io/react/) and [Npm](https://www.npmjs.com/)
+  Visit [this link](https://github.com/AlbertoFardin/portfolio_components) to see the components that I done.
 
+  This is a customizable library to build faster and more accessible applications.
+  
+  Follow design system of [Material Design](https://material.io/design/introduction/).
+  
+  Build with [ReactJs](https://reactjs.org/) and [Npm](https://www.npmjs.com/)
 </div>
 
 ## Development
@@ -38,4 +43,4 @@ While in the code there should be comments to understand what the logics define.
 
 ## License
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+This project is licensed under the terms of the [MIT license](./static/LICENSE).

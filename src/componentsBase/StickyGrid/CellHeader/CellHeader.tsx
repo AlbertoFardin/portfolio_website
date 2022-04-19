@@ -1,25 +1,25 @@
-import Zoom from "@material-ui/core/Zoom";
-import classnames from "classnames";
-import * as React from "react";
-import ReactResizeDetector from "react-resize-detector";
-import TypographyEllipsis from "../../TypographyEllipsis";
-import { v4 as uuidv4 } from "uuid";
-import { ISortOrder } from "../interfaces";
-import useStyles from "./useStyles";
-import IconSort from "./IconSort";
-import BtnBadge from "../../BtnBadge";
-import isEqual from "lodash-es/isEqual";
-import { getIndexSort, labelSortAction, arrowSortAction } from "./utils";
-import { IRenderer } from "../../StickyTable/IStickyTable";
-import { emptyFn } from "../../utils/common";
+import Zoom from '@material-ui/core/Zoom';
+import classnames from 'classnames';
+import * as React from 'react';
+import ReactResizeDetector from 'react-resize-detector';
+import TypographyEllipsis from '../../TypographyEllipsis';
+import { v4 as uuidv4 } from 'uuid';
+import { ISortOrder } from '../interfaces';
+import useStyles from './useStyles';
+import IconSort from './IconSort';
+import Btn from '../../Btn';
+import isEqual from 'lodash-es/isEqual';
+import { getIndexSort, labelSortAction, arrowSortAction } from './utils';
+import { IRenderer } from '../../StickyTable/IStickyTable';
+import { emptyFn } from '../../utils/common';
 
 const dragEventId = `cellheader_drag_${uuidv4()}`;
 
 enum ACTION {
-  SET_HOVER_MOUSE = "SET_HOVER_MOUSE",
-  SET_HOVER_DRAG = "SET_HOVER_DRAG",
-  SET_WIDTH = "SET_WIDTH",
-  SET_CELL_DRAG_ID = "SET_CELL_DRAG_ID",
+  SET_HOVER_MOUSE = 'SET_HOVER_MOUSE',
+  SET_HOVER_DRAG = 'SET_HOVER_DRAG',
+  SET_WIDTH = 'SET_WIDTH',
+  SET_CELL_DRAG_ID = 'SET_CELL_DRAG_ID',
 }
 
 const reducer = (state, action) => {
@@ -66,7 +66,7 @@ const CellHeader = ({
   const [state, dispatch] = React.useReducer(reducer, {
     hoverMouse: false,
     hoverDrag: false,
-    cellDragId: "",
+    cellDragId: '',
   });
   const { hoverMouse, hoverDrag, cellDragId } = state;
   const classes = useStyles({
@@ -85,7 +85,7 @@ const CellHeader = ({
     (w: number) => {
       onResizeEnd(w, columnIndex);
     },
-    [columnIndex, onResizeEnd]
+    [columnIndex, onResizeEnd],
   );
   const cbOnClickLabel = React.useCallback(() => {
     const ret = labelSortAction(id, sort, sortable, enableMultiSort);
@@ -99,7 +99,7 @@ const CellHeader = ({
       id,
       sort,
       sortable,
-      enableMultiSort
+      enableMultiSort,
     );
     if (ret !== undefined) {
       onClick(ret);
@@ -111,7 +111,7 @@ const CellHeader = ({
       id,
       sort,
       sortable,
-      enableMultiSort
+      enableMultiSort,
     );
     if (ret !== undefined) {
       onClick(ret);
@@ -132,7 +132,7 @@ const CellHeader = ({
       dispatch({ type: ACTION.SET_CELL_DRAG_ID, cellDragId: id });
       event.dataTransfer.setData(dragEventId, id);
     },
-    [id]
+    [id],
   );
   const cbOnDragOver = React.useCallback((event) => {
     event.stopPropagation();
@@ -147,7 +147,7 @@ const CellHeader = ({
   const cbOnDragEnd = React.useCallback((event) => {
     event.stopPropagation();
     event.preventDefault();
-    dispatch({ type: ACTION.SET_CELL_DRAG_ID, cellDragId: "" });
+    dispatch({ type: ACTION.SET_CELL_DRAG_ID, cellDragId: '' });
   }, []);
   const cbOnDrop = React.useCallback(
     (event) => {
@@ -158,7 +158,7 @@ const CellHeader = ({
       if (dragColId !== dropColId) onMoveColumn(dragColId, dropColId);
       dispatch({ type: ACTION.SET_HOVER_DRAG, hoverDrag: false });
     },
-    [id, onMoveColumn]
+    [id, onMoveColumn],
   );
   const cbOnRemove = React.useCallback(() => {
     onRemove(id);
@@ -170,7 +170,7 @@ const CellHeader = ({
 
   return (
     <div
-      role="presentation"
+      role='presentation'
       style={style}
       className={classnames({
         [classes.cell]: true,
@@ -193,17 +193,17 @@ const CellHeader = ({
     >
       {!hoverDrag ? null : <div className={classes.dropIndicator} />}
       {showSortOrderBadge && !hoverMouse ? (
-        <BtnBadge
+        <Btn
           className={classes.badge}
           labelClassName={classes.badgeLabel}
           label={String(foundSort.index + 1)}
         />
       ) : null}
       <Zoom in={hoverMouse && !cellDragId && enableRemove}>
-        <BtnBadge
+        <Btn
           className={classes.badge}
-          tooltip="Remove Column"
-          icon="close"
+          tooltip='Remove Column'
+          icon='close'
           onClick={cbOnRemove}
         />
       </Zoom>
@@ -214,11 +214,11 @@ const CellHeader = ({
           foundSort.sorted && sort[foundSort.index].order === ISortOrder.ASC
         }
         hidden={iconSortHide}
-        icon="arrow_drop_up"
+        icon='arrow_drop_up'
         onClick={cbOnSortAsc}
       />
       <TypographyEllipsis
-        variant="body1"
+        variant='body1'
         className={classes.label}
         onClick={cbOnClickLabel}
         children={label}
@@ -229,7 +229,7 @@ const CellHeader = ({
           foundSort.sorted && sort[foundSort.index].order === ISortOrder.DESC
         }
         hidden={iconSortHide}
-        icon="arrow_drop_down"
+        icon='arrow_drop_down'
         onClick={cbOnSortDesc}
       />
       {cellDragId ? null : (

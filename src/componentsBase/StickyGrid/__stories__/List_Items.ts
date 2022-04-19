@@ -1,18 +1,17 @@
-import { PreviewType } from "../../Preview";
-import * as Colors from "../../style/Colors";
-import { IBtn } from "../../Btn";
+import { PreviewType } from '../../Preview';
+import * as Colors from '../../style/Colors';
+import { IBtn } from '../../Btn';
 import {
   urlImage,
   urlImage2,
   urlImage3,
   urlImage4,
   urlVideo,
-} from "../../__stories__/mediaUrls";
-import { ICategory } from "../../ChipCategory";
+} from '../../__stories__/mediaUrls';
 
 const badges: IBtn[] = [
   {
-    label: "F",
+    label: 'F',
     labelRequired: true,
     style: {
       minWidth: 40,
@@ -22,7 +21,7 @@ const badges: IBtn[] = [
   },
   {
     color: Colors.Green,
-    label: "3",
+    label: '3',
     style: {
       top: 6,
       right: 8,
@@ -37,10 +36,10 @@ const badges: IBtn[] = [
   },
   {
     color: Colors.Purple,
-    icon: "messenger",
+    icon: 'messenger',
     style: {
       bottom: 6,
-      margin: "auto",
+      margin: 'auto',
       right: 0,
       left: 0,
     },
@@ -49,144 +48,98 @@ const badges: IBtn[] = [
 
 const items = [
   {
-    id: "3",
-    idUser: "userId1",
+    id: '3',
+    idUser: 'userId1',
     idCustom: true,
-    idString: "1Lorem",
+    idString: '1Lorem',
     idSimpleDate: 1504691932985,
     idBool: true,
-    idMultipleString: ["A", "B", "C", "D"],
+    idMultipleString: ['A', 'B', 'C', 'D'],
     idMultipleThumbnail: [
       {
-        id: "1",
+        id: '1',
         srcUrl: urlImage,
         paperFold: true,
-        placeholderIcon: "photo",
-        label: "SHOOTING STILL LIFE",
+        placeholderIcon: 'photo',
+        label: 'SHOOTING STILL LIFE',
         badges,
       },
       {
-        id: "video",
+        id: 'video',
         srcUrl: urlVideo,
         srcType: PreviewType.VIDEO,
-        placeholderIcon: "movie",
+        placeholderIcon: 'movie',
       },
       {
-        id: "12",
+        id: '12',
         srcUrl: urlImage2,
       },
       {
-        id: "13",
+        id: '13',
         srcUrl: urlImage3,
       },
       {
-        id: "14",
+        id: '14',
         srcUrl: urlImage4,
       },
     ],
-    idIcon: "settings",
+    idIcon: 'settings',
     idAvatar: [
       {
-        id: "0",
-        label: "Mario Cat",
+        id: '0',
+        label: 'Mario Cat',
         url: urlImage,
       },
       {
-        id: "1",
-        label: "Luigi Cat",
+        id: '1',
+        label: 'Luigi Cat',
         url: urlImage,
       },
       {
-        id: "2",
-        label: "Peach Cat",
+        id: '2',
+        label: 'Peach Cat',
         url: urlImage2,
       },
       {
-        id: "3",
-        label: "Bowser Cat",
+        id: '3',
+        label: 'Bowser Cat',
         url: urlImage3,
       },
       {
-        id: "4",
-        label: "Pipino Cat",
+        id: '4',
+        label: 'Pipino Cat',
         url: urlImage4,
       },
     ],
-    idDictionary: [{ value: "dic1" }, { value: "dic2" }, { value: "dic3" }],
-    idCategory: [
-      {
-        tooltip: "Women/Beauty/Shoes/Hight/Heel20",
-        id: "Heel20",
-        label: "Heel20",
-      },
-      {
-        tooltip: "Men",
-        id: "Men",
-        label: "MenEn",
-      },
-    ] as ICategory[],
+    idDictionary: [{ value: 'dic1' }, { value: 'dic2' }, { value: 'dic3' }],
   },
   {
-    id: "4",
-    idUser: "userId_Unknow",
+    id: '4',
+    idUser: 'userId_Unknow',
     idCustom: true,
-    idString: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    idSimpleDate: "2020-01-30",
+    idString: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    idSimpleDate: '2020-01-30',
     idBool: false,
-    idMultipleString: ["views"],
-    idIcon: "home",
+    idMultipleString: ['views'],
+    idIcon: 'home',
     idMultipleThumbnail: [
       {
-        id: "21",
+        id: '21',
         srcUrl: urlImage,
       },
       {
-        id: "22",
+        id: '22',
         srcUrl: urlImage2,
       },
     ],
     idAvatar: [
       {
-        id: "x",
-        label: "cat cat cat",
+        id: 'x',
+        label: 'cat cat cat',
         url: urlImage,
       },
     ],
     idDictionary: undefined,
-    idCategory: [
-      {
-        id: "0",
-        label: "0",
-      },
-      {
-        id: "1",
-        label: "1",
-      },
-      {
-        id: "2",
-        label: "2",
-      },
-      {
-        id: "3",
-        label: "3",
-      },
-      {
-        id: "4",
-        label: "4",
-      },
-      {
-        id: "5",
-        label: "5",
-      },
-      {
-        id: "6",
-        label: "6",
-      },
-      {
-        id: "7",
-        label: "7",
-      },
-    ] as ICategory[],
   },
 ];
 

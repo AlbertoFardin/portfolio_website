@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
-# ENV='test'
-# BUCKET_NAME='seecommerce'
-# CLOUDFRONT_DIST_ID='E3NLD0KF171F4G'
+
+BUCKET_NAME=portfolio
+ENV=dev
 
 # syncronize all static files to bucket
 aws s3 sync ./bucket s3://$BUCKET_NAME/ui/$ENV --exclude *.svg

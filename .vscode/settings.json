@@ -8,6 +8,10 @@
   "typescript.surveys.enabled": false,
   "editor.tabSize": 2,
   "files.autoSave": "off",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true

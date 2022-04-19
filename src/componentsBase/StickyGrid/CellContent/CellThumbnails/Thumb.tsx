@@ -1,15 +1,15 @@
-import classnames from "classnames";
-import * as React from "react";
-import makeStyles from "@material-ui/core/styles/makeStyles";
-import PaperFold from "../../../PaperFold";
-import Preview, { PreviewType } from "../../../Preview";
-import TypographyEllipsis from "../../../TypographyEllipsis";
-import Fade from "@material-ui/core/Fade";
-import BtnBadge from "../../../BtnBadge";
-import { getThumbBorderRadius } from "./utils";
-import { ICellClick, IThumbnail } from "../../interfaces";
+import classnames from 'classnames';
+import * as React from 'react';
+import makeStyles from '@material-ui/core/styles/makeStyles';
+import PaperFold from '../../../PaperFold';
+import Preview, { PreviewType } from '../../../Preview';
+import TypographyEllipsis from '../../../TypographyEllipsis';
+import Fade from '@material-ui/core/Fade';
+import Btn from '../../../Btn';
+import { getThumbBorderRadius } from './utils';
+import { ICellClick, IThumbnail } from '../../interfaces';
 
-const thumbColor = "#EFEFEF";
+const thumbColor = '#EFEFEF';
 interface IStyles {
   srcUrl: string;
   thumbSize: number;
@@ -18,39 +18,39 @@ interface IStyles {
 }
 const useStyles = makeStyles({
   thumb: {
-    position: "relative",
-    overflow: "hidden",
+    position: 'relative',
+    overflow: 'hidden',
     border: `1px solid ${thumbColor}`,
-    "background-color": thumbColor,
-    "border-radius": ({ thumbSize }: IStyles) =>
+    'background-color': thumbColor,
+    'border-radius': ({ thumbSize }: IStyles) =>
       getThumbBorderRadius(thumbSize),
     height: ({ thumbSize }: IStyles) => thumbSize,
     width: ({ thumbSize }: IStyles) => thumbSize,
     margin: ({ thumbMargin }: IStyles) => thumbMargin,
   },
   thumbSelected: {
-    "font-weight": "bolder",
+    'font-weight': 'bolder',
   },
   thumbContent: {
-    position: "relative",
-    width: "inherit",
-    height: "inherit",
+    position: 'relative',
+    width: 'inherit',
+    height: 'inherit',
   },
   labelContainer: {
-    transition: "all 250ms",
-    position: "absolute",
-    margin: "auto",
+    transition: 'all 250ms',
+    position: 'absolute',
+    margin: 'auto',
     right: 0,
     bottom: 28,
     left: 0,
     width: ({ thumbSize }: IStyles) => thumbSize - 20,
-    "z-index": 1,
+    'z-index': 1,
   },
   label: {
-    transition: "all 250ms",
-    color: "#fff",
-    "text-align": "center",
-    "font-size": 13,
+    transition: 'all 250ms',
+    color: '#fff',
+    'text-align': 'center',
+    'font-size': 13,
     flex: 1,
   },
 });
@@ -128,14 +128,14 @@ const Thumb = ({ style: styleCell, data, columnIndex: index }: IThumb) => {
         onDoubleClick(clickProps);
       }
     },
-    [columnIndex, focused, id, onClick, onDoubleClick, rowIndex, selected]
+    [columnIndex, focused, id, onClick, onDoubleClick, rowIndex, selected],
   );
   const onMouseEnter = React.useCallback(
     (event) => {
       event.persist();
       if (srcUrl) setMousehover(true);
     },
-    [srcUrl]
+    [srcUrl],
   );
   const onMouseLeave = React.useCallback((event) => {
     event.persist();
@@ -155,13 +155,13 @@ const Thumb = ({ style: styleCell, data, columnIndex: index }: IThumb) => {
         onMouseLeave={onMouseLeave}
       >
         {(badges || []).map((b, i) => (
-          <BtnBadge key={`badge_${i}`} {...b} />
+          <Btn key={`badge_${i}`} {...b} />
         ))}
 
         <Fade in={!!(label && mousehover)}>
           <div className={classes.labelContainer}>
             <TypographyEllipsis
-              variant="subtitle2"
+              variant='subtitle2'
               className={classes.label}
               style={labelStyle}
               children={label}
@@ -170,8 +170,8 @@ const Thumb = ({ style: styleCell, data, columnIndex: index }: IThumb) => {
         </Fade>
 
         <PaperFold
-          anchorHorizontal="right"
-          anchorVertical="bottom"
+          anchorHorizontal='right'
+          anchorVertical='bottom'
           open={paperFold}
           size={getThumbBorderRadius(thumbSize)}
           {...paperFoldProps}
