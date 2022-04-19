@@ -1,0 +1,542 @@
+[
+    {
+        "id": "product://?product_categories-Farfetch-Women/Sale",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Farfetch",
+            "id": "Women/Sale",
+            "displayOrder": 1,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "Sale",
+                "it": "Saldi",
+                "es": "Rebajas",
+                "de": "Rabatte",
+                "fr": "Soldes"
+            },
+            "searchableValue": "Sale Saldi Rebajas Rabatte Soldes"
+        }
+    },
+    {
+        "id": "product://?product_categories-Farfetch-Women",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Farfetch",
+            "id": "Women",
+            "displayOrder": 2,
+            "parent": null,
+            "root": "Women",
+            "labels": {
+                "en": "Women",
+                "it": "Donna",
+                "es": "Mujer",
+                "de": "Damen",
+                "fr": "Femme"
+            },
+            "searchableValue": "Women Donna Mujer Damen Femme"
+        }
+    },
+    {
+        "id": "product://?product_categories-Farfetch-Men/Sale",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Farfetch",
+            "id": "Men/Sale",
+            "displayOrder": 1,
+            "parent": "Men",
+            "root": "Men",
+            "labels": {
+                "en": "Sale",
+                "it": "Saldi",
+                "es": "Rebajas",
+                "de": "Rabatte",
+                "fr": "Soldes"
+            },
+            "searchableValue": "Sale Saldi Rebajas Rabatte Soldes"
+        }
+    },
+    {
+        "id": "product://?product_categories-Farfetch-Men",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Farfetch",
+            "id": "Men",
+            "displayOrder": 3,
+            "parent": null,
+            "root": "Men",
+            "labels": {
+                "en": "Men",
+                "it": "Uomo",
+                "es": "Hombre",
+                "de": "Herren",
+                "fr": "Homme"
+            },
+            "searchableValue": "Men Uomo Hombre Herren Homme"
+        }
+    },
+    {
+        "id": "product://?product_categories-Farfetch-Kids/Sale",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Farfetch",
+            "id": "Kids/Sale",
+            "displayOrder": 1,
+            "parent": "Kids",
+            "root": "Kids",
+            "labels": {
+                "en": "Sale",
+                "it": "Saldi",
+                "es": "Rebajas",
+                "de": "Rabatte",
+                "fr": "Soldes"
+            },
+            "searchableValue": "Sale Saldi Rebajas Rabatte Soldes"
+        }
+    },
+    {
+        "id": "product://?product_categories-Farfetch-Kids",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Farfetch",
+            "id": "Kids",
+            "displayOrder": 4,
+            "parent": null,
+            "root": "Kids",
+            "labels": {
+                "en": "Kids",
+                "it": "Bambino",
+                "es": "Niño",
+                "de": "Kinder",
+                "fr": "Enfants"
+            },
+            "searchableValue": "Kids Bambino Niño Kinder Enfants"
+        }
+    },
+    {
+        "id": "product://?product_categories-China-Women",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "China",
+            "id": "Women",
+            "displayOrder": 1,
+            "parent": null,
+            "root": "Women",
+            "labels": {
+                "en": "Women",
+                "ch": "女士"
+            },
+            "searchableValue": "Women 女士"
+        }
+    },
+    {
+        "id": "product://?product_categories-China-Men",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "China",
+            "id": "Men",
+            "displayOrder": 2,
+            "parent": null,
+            "root": "Men",
+            "labels": {
+                "en": "Men",
+                "ch": "男士"
+            },
+            "searchableValue": "Men 男士"
+        }
+    },
+    {
+        "id": "product://?product_categories-China-Kids",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "China",
+            "id": "Kids",
+            "displayOrder": 3,
+            "parent": null,
+            "root": "Kids",
+            "labels": {
+                "en": "Kids",
+                "ch": "儿童"
+            },
+            "searchableValue": "Kids 儿童"
+        }
+    },
+    {
+        "id": "product://?product_categories-Russia-Women",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Russia",
+            "id": "Women",
+            "displayOrder": 1,
+            "parent": null,
+            "root": "Women",
+            "labels": {
+                "en": "Women",
+                "ru": "Женщины"
+            },
+            "searchableValue": "Women Женщины"
+        }
+    },
+    {
+        "id": "product://?product_categories-Russia-Men",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Russia",
+            "id": "Men",
+            "displayOrder": 2,
+            "parent": null,
+            "root": "Men",
+            "labels": {
+                "en": "Men",
+                "ru": "Мужчины"
+            },
+            "searchableValue": "Men Мужчины"
+        }
+    },
+    {
+        "id": "product://?product_categories-Russia-Kids",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "Russia",
+            "id": "Kids",
+            "displayOrder": 3,
+            "parent": null,
+            "root": "Kids",
+            "labels": {
+                "en": "Kids",
+                "ru": "Дети"
+            },
+            "searchableValue": "Kids Дети"
+        }
+    },
+    {
+        "id": "product://?product_categories-US-Women",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "US",
+            "id": "Women",
+            "displayOrder": 1,
+            "parent": null,
+            "root": "Women",
+            "labels": {
+                "en": "Women"
+            },
+            "searchableValue": "Women"
+        }
+    },
+    {
+        "id": "product://?product_categories-US-Men",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "US",
+            "id": "Men",
+            "displayOrder": 2,
+            "parent": null,
+            "root": "Men",
+            "labels": {
+                "en": "Men"
+            },
+            "searchableValue": "Men"
+        }
+    },
+    {
+        "id": "product://?product_categories-US-Kids",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "US",
+            "id": "Kids",
+            "displayOrder": 3,
+            "parent": null,
+            "root": "Kids",
+            "labels": {
+                "en": "Kids"
+            },
+            "searchableValue": "Kids"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Top",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Top",
+            "displayOrder": 1,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "Top",
+                "it": "Maglieria",
+                "es": "Top",
+                "de": "Top",
+                "fr": "Top"
+            },
+            "searchableValue": "Top Maglieria Top Top Top"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Shoes/Boots",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Shoes/Boots",
+            "displayOrder": 2,
+            "parent": "Women/Shoes",
+            "root": "Women",
+            "labels": {
+                "en": "Boots",
+                "it": "Stivali",
+                "es": "Botas",
+                "de": "Stiefel",
+                "fr": "Bottes"
+            },
+            "searchableValue": "Boots Stivali Botas Stiefel Bottes"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Shoes/Sneakers",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Shoes/Sneakers",
+            "displayOrder": 1,
+            "parent": "Women/Shoes",
+            "root": "Women",
+            "labels": {
+                "en": "Sneakers",
+                "it": "Sneakers",
+                "es": "Zapatillas",
+                "de": "Turnschuhe",
+                "fr": "Baskets"
+            },
+            "searchableValue": "Sneakers Sneakers Zapatillas Turnschuhe Baskets"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Shoes",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Shoes",
+            "displayOrder": 3,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "Shoes",
+                "it": "Scarpe",
+                "es": "Zapatos",
+                "de": "Schuhe",
+                "fr": "Chaussures"
+            },
+            "searchableValue": "Shoes Scarpe Zapatos Schuhe Chaussures"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Beauty",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Beauty",
+            "displayOrder": 2,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "Beauty",
+                "it": "Beauty",
+                "es": "Beauty",
+                "de": "Beauty",
+                "fr": "Beauty"
+            },
+            "searchableValue": "Beauty Beauty Beauty Beauty Beauty"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/New arrivals",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/New arrivals",
+            "displayOrder": 1,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "New arrivals",
+                "it": "Nuovi arrivi",
+                "es": "Novedades",
+                "de": "Neue",
+                "fr": "Nouveaux"
+            },
+            "searchableValue": "New arrivals Nuovi arrivi Novedades Neue Nouveaux"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Top/Shirts",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Top/Shirts",
+            "displayOrder": 1,
+            "parent": "Women/Top",
+            "root": "Women",
+            "labels": {
+                "en": "Shirts",
+                "it": "Camice",
+                "es": "Camisas",
+                "de": "Hemden",
+                "fr": "Chemises"
+            },
+            "searchableValue": "Shirts Camice Camisas Hemden Chemises"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Top/T-Shirts",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Top/T-Shirts",
+            "displayOrder": 2,
+            "parent": "Women/Top",
+            "root": "Women",
+            "labels": {
+                "en": "T-Shirts",
+                "it": "T-Shirts",
+                "es": "Camisetas",
+                "de": "T-Shirts",
+                "fr": "T-Shirts"
+            },
+            "searchableValue": "T-Shirts T-Shirts Camisetas T-Shirts T-Shirts"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Pants",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Pants",
+            "displayOrder": 3,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "Pants",
+                "it": "Pantaloni",
+                "es": "Pantalones",
+                "de": "Hose",
+                "fr": "Pantalon"
+            },
+            "searchableValue": "Pants Pantaloni Pantalones Hose Pantalon"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women",
+            "displayOrder": 1,
+            "parent": null,
+            "root": "Women",
+            "labels": {
+                "en": "Women",
+                "it": "Donna",
+                "es": "Mujer",
+                "de": "Damen",
+                "fr": "Femme"
+            },
+            "searchableValue": "Women Donna Mujer Damen Femme"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Women/Skirts",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Women/Skirts",
+            "displayOrder": 4,
+            "parent": "Women",
+            "root": "Women",
+            "labels": {
+                "en": "Skirts",
+                "it": "Gonne",
+                "es": "Faldas",
+                "de": "Die Röcke",
+                "fr": "Jupes"
+            },
+            "searchableValue": "Skirts Gonne Faldas Die Röcke Jupes"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Men/New arrivals",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Men/New arrivals",
+            "displayOrder": 1,
+            "parent": "Men",
+            "root": "Men",
+            "labels": {
+                "en": "New arrivals",
+                "it": "Nuovi arrivi",
+                "es": "Novedades",
+                "de": "Neue",
+                "fr": "Nouveaux"
+            },
+            "searchableValue": "New arrivals Nuovi arrivi Novedades Neue Nouveaux"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Men",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Men",
+            "displayOrder": 2,
+            "parent": null,
+            "root": "Men",
+            "labels": {
+                "en": "Men",
+                "it": "Uomo",
+                "es": "Hombre",
+                "de": "Herren",
+                "fr": "Homme"
+            },
+            "searchableValue": "Men Uomo Hombre Herren Homme"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Kids/New arrivals",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Kids/New arrivals",
+            "displayOrder": 1,
+            "parent": "Kids",
+            "root": "Kids",
+            "labels": {
+                "en": "New arrivals",
+                "it": "Nuovi arrivi",
+                "es": "Novedades",
+                "de": "Neue",
+                "fr": "Nouveaux"
+            },
+            "searchableValue": "New arrivals Nuovi arrivi Novedades Neue Nouveaux"
+        }
+    },
+    {
+        "id": "product://?product_categories-EMEA-Kids",
+        "data": {
+            "attributeStructureId": "product://?product_categories",
+            "catalog": "EMEA",
+            "id": "Kids",
+            "displayOrder": 3,
+            "parent": null,
+            "root": "Kids",
+            "labels": {
+                "en": "Kids",
+                "it": "Bambino",
+                "es": "Niño",
+                "de": "Kinder",
+                "fr": "Enfants"
+            },
+            "searchableValue": "Kids Bambino Niño Kinder Enfants"
+        }
+    }
+]

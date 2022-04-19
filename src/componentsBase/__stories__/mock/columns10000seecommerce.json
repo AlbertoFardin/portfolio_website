@@ -1,0 +1,2105 @@
+[
+  {
+    "label": "id",
+    "groupId": "Product Info",
+    "id": "id",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Active",
+    "groupId": "Product Info",
+    "id": "p-activeFlag",
+    "type": "icon",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Attachments",
+    "groupId": "Brief",
+    "id": "s-attachments",
+    "type": "icon",
+    "keyword": false,
+    "editField": {
+      "type": "ButtonUpload",
+      "paths": "attachments"
+    },
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Brand",
+    "groupId": "Product Info",
+    "id": "p-brand",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Brief Complete",
+    "groupId": "Brief",
+    "id": "rv-complete",
+    "type": "icon",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Care Maintenance",
+    "groupId": "Product Info",
+    "id": "p-careMaintenanceCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Color Code",
+    "groupId": "Product Info",
+    "id": "p-colorCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Color Conversion Code",
+    "groupId": "Product Info",
+    "id": "p-colorConversionCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Color Description",
+    "groupId": "Product Info",
+    "id": "p-colorDesc",
+    "type": "string",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Creation",
+    "groupId": "System",
+    "id": "s-creation",
+    "type": "simpledate",
+    "keyword": false,
+    "dateFormat": "yyyy/mm/dd HH:MM:ss",
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Duty Code",
+    "groupId": "Product Info",
+    "id": "p-dutyCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Ecomm Order Author",
+    "groupId": "Order",
+    "id": "s-orderUser",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Ecomm Order Code",
+    "groupId": "Order",
+    "id": "s-orderCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Ecomm Order Date",
+    "groupId": "Order",
+    "id": "s-orderDate",
+    "type": "simpledate",
+    "keyword": false,
+    "dateFormat": "yyyy/mm/dd",
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "End Date (model)",
+    "groupId": "Product Info",
+    "id": "p-modelEndDate",
+    "type": "simpledate",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "End Date (variant)",
+    "groupId": "Product Info",
+    "id": "p-varEndDate",
+    "type": "simpledate",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Id",
+    "groupId": "System",
+    "id": "s-id",
+    "type": "string",
+    "keyword": true,
+    "sortable": false
+  },
+  {
+    "label": "Level 1",
+    "groupId": "Product Info",
+    "id": "p-cat1Desc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 1 Code",
+    "groupId": "Product Info",
+    "id": "p-cat1",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 2",
+    "groupId": "Product Info",
+    "id": "p-cat2Desc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 2 Code",
+    "groupId": "Product Info",
+    "id": "p-cat2",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 3",
+    "groupId": "Product Info",
+    "id": "p-cat3Desc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 3 Code",
+    "groupId": "Product Info",
+    "id": "p-cat3",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 4",
+    "groupId": "Product Info",
+    "id": "p-cat4Desc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Level 4 Code",
+    "groupId": "Product Info",
+    "id": "p-cat4",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Main Fabric Code",
+    "groupId": "Product Info",
+    "id": "p-mainFabricCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Main Fabric Description",
+    "groupId": "Product Info",
+    "id": "p-mainFabricDesc",
+    "type": "string",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Material",
+    "groupId": "Product Info",
+    "id": "p-material",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Material Description",
+    "groupId": "Product Info",
+    "id": "p-materialDesc",
+    "type": "string",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Model",
+    "groupId": "Brief",
+    "id": "rv-model",
+    "type": "string",
+    "keyword": true,
+    "editField": {
+      "type": "SelectField",
+      "value": [
+        {
+          "label": "W1",
+          "value": "W1"
+        },
+        {
+          "label": "W2",
+          "value": "W2"
+        },
+        {
+          "label": "W3",
+          "value": "W3"
+        }
+      ]
+    },
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Model Rule",
+    "groupId": "Brief",
+    "id": "rn-model",
+    "type": "buttons",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Name",
+    "groupId": "Product Info",
+    "id": "p-name",
+    "type": "string",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Notes",
+    "groupId": "Brief",
+    "id": "u-notes",
+    "type": "string",
+    "keyword": true,
+    "editField": {
+      "type": "TextareaField",
+      "heightOpen": 120,
+      "widthOpen": 200
+    },
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Product Type Id",
+    "groupId": "Product Info",
+    "id": "p-productTypeId",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Related",
+    "groupId": "Brief",
+    "id": "u-related",
+    "type": "string",
+    "keyword": true,
+    "details": true,
+    "editField": {
+      "type": "SelectField",
+      "multiselectable": true,
+      "widthOpen": 200,
+      "proxy": {
+        "url": "/v1/seecommerce/shootingbrief/product",
+        "params": {
+          "size": 10,
+          "from": 0,
+          "label": "p-stylecolor",
+          "value": "p-stylecolor"
+        }
+      }
+    }
+  },
+  {
+    "label": "Season Code",
+    "groupId": "Product Info",
+    "id": "p-season",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Season",
+    "groupId": "Product Info",
+    "id": "p-seasonDesc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false
+  },
+  {
+    "label": "Series (model)",
+    "groupId": "Product Info",
+    "id": "p-modelSeries",
+    "type": "string",
+    "keyword": true,
+    "details": true
+  },
+  {
+    "label": "Series (variant)",
+    "groupId": "Product Info",
+    "id": "p-varSeries",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Shoot views Rule",
+    "groupId": "Brief",
+    "id": "rn-shoot",
+    "type": "buttons",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Shoot views",
+    "groupId": "Brief",
+    "id": "rv-shoot",
+    "type": "string",
+    "keyword": true,
+    "editField": {
+      "type": "SelectField",
+      "multiselectable": true,
+      "searchable": true,
+      "value": [
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "BA",
+          "value": "BA"
+        },
+        {
+          "label": "BI",
+          "value": "BI"
+        },
+        {
+          "label": "BIA",
+          "value": "BIA"
+        },
+        {
+          "label": "BIL",
+          "value": "BIL"
+        },
+        {
+          "label": "BIT",
+          "value": "BIT"
+        },
+        {
+          "label": "BL",
+          "value": "BL"
+        },
+        {
+          "label": "BT",
+          "value": "BT"
+        },
+        {
+          "label": "BW",
+          "value": "BW"
+        },
+        {
+          "label": "BWA",
+          "value": "BWA"
+        },
+        {
+          "label": "BWL",
+          "value": "BWL"
+        },
+        {
+          "label": "BWT",
+          "value": "BWT"
+        },
+        {
+          "label": "CW",
+          "value": "CW"
+        },
+        {
+          "label": "CWA",
+          "value": "CWA"
+        },
+        {
+          "label": "CWL",
+          "value": "CWL"
+        },
+        {
+          "label": "CWT",
+          "value": "CWT"
+        },
+        {
+          "label": "D1",
+          "value": "D1"
+        },
+        {
+          "label": "D10",
+          "value": "D10"
+        },
+        {
+          "label": "D10A",
+          "value": "D10A"
+        },
+        {
+          "label": "D10L",
+          "value": "D10L"
+        },
+        {
+          "label": "D10T",
+          "value": "D10T"
+        },
+        {
+          "label": "D10W",
+          "value": "D10W"
+        },
+        {
+          "label": "D10WA",
+          "value": "D10WA"
+        },
+        {
+          "label": "D10WL",
+          "value": "D10WL"
+        },
+        {
+          "label": "D10WT",
+          "value": "D10WT"
+        },
+        {
+          "label": "D1A",
+          "value": "D1A"
+        },
+        {
+          "label": "D1L",
+          "value": "D1L"
+        },
+        {
+          "label": "D1T",
+          "value": "D1T"
+        },
+        {
+          "label": "D1W",
+          "value": "D1W"
+        },
+        {
+          "label": "D1WA",
+          "value": "D1WA"
+        },
+        {
+          "label": "D1WL",
+          "value": "D1WL"
+        },
+        {
+          "label": "D1WT",
+          "value": "D1WT"
+        },
+        {
+          "label": "D2",
+          "value": "D2"
+        },
+        {
+          "label": "D2A",
+          "value": "D2A"
+        },
+        {
+          "label": "D2L",
+          "value": "D2L"
+        },
+        {
+          "label": "D2T",
+          "value": "D2T"
+        },
+        {
+          "label": "D2W",
+          "value": "D2W"
+        },
+        {
+          "label": "D2WA",
+          "value": "D2WA"
+        },
+        {
+          "label": "D2WL",
+          "value": "D2WL"
+        },
+        {
+          "label": "D2WT",
+          "value": "D2WT"
+        },
+        {
+          "label": "D3",
+          "value": "D3"
+        },
+        {
+          "label": "D3A",
+          "value": "D3A"
+        },
+        {
+          "label": "D3L",
+          "value": "D3L"
+        },
+        {
+          "label": "D3T",
+          "value": "D3T"
+        },
+        {
+          "label": "D3W",
+          "value": "D3W"
+        },
+        {
+          "label": "D3WA",
+          "value": "D3WA"
+        },
+        {
+          "label": "D3WL",
+          "value": "D3WL"
+        },
+        {
+          "label": "D3WT",
+          "value": "D3WT"
+        },
+        {
+          "label": "D4",
+          "value": "D4"
+        },
+        {
+          "label": "D4A",
+          "value": "D4A"
+        },
+        {
+          "label": "D4L",
+          "value": "D4L"
+        },
+        {
+          "label": "D4T",
+          "value": "D4T"
+        },
+        {
+          "label": "D4W",
+          "value": "D4W"
+        },
+        {
+          "label": "D4WA",
+          "value": "D4WA"
+        },
+        {
+          "label": "D4WL",
+          "value": "D4WL"
+        },
+        {
+          "label": "D4WT",
+          "value": "D4WT"
+        },
+        {
+          "label": "D5",
+          "value": "D5"
+        },
+        {
+          "label": "D5A",
+          "value": "D5A"
+        },
+        {
+          "label": "D5L",
+          "value": "D5L"
+        },
+        {
+          "label": "D5T",
+          "value": "D5T"
+        },
+        {
+          "label": "D5W",
+          "value": "D5W"
+        },
+        {
+          "label": "D5WA",
+          "value": "D5WA"
+        },
+        {
+          "label": "D5WL",
+          "value": "D5WL"
+        },
+        {
+          "label": "D5WT",
+          "value": "D5WT"
+        },
+        {
+          "label": "D6",
+          "value": "D6"
+        },
+        {
+          "label": "D6A",
+          "value": "D6A"
+        },
+        {
+          "label": "D6L",
+          "value": "D6L"
+        },
+        {
+          "label": "D6T",
+          "value": "D6T"
+        },
+        {
+          "label": "D6W",
+          "value": "D6W"
+        },
+        {
+          "label": "D6WA",
+          "value": "D6WA"
+        },
+        {
+          "label": "D6WL",
+          "value": "D6WL"
+        },
+        {
+          "label": "D6WT",
+          "value": "D6WT"
+        },
+        {
+          "label": "D7",
+          "value": "D7"
+        },
+        {
+          "label": "D7A",
+          "value": "D7A"
+        },
+        {
+          "label": "D7L",
+          "value": "D7L"
+        },
+        {
+          "label": "D7T",
+          "value": "D7T"
+        },
+        {
+          "label": "D7W",
+          "value": "D7W"
+        },
+        {
+          "label": "D7WA",
+          "value": "D7WA"
+        },
+        {
+          "label": "D7WL",
+          "value": "D7WL"
+        },
+        {
+          "label": "D7WT",
+          "value": "D7WT"
+        },
+        {
+          "label": "D8",
+          "value": "D8"
+        },
+        {
+          "label": "D8A",
+          "value": "D8A"
+        },
+        {
+          "label": "D8L",
+          "value": "D8L"
+        },
+        {
+          "label": "D8T",
+          "value": "D8T"
+        },
+        {
+          "label": "D8W",
+          "value": "D8W"
+        },
+        {
+          "label": "D8WA",
+          "value": "D8WA"
+        },
+        {
+          "label": "D8WL",
+          "value": "D8WL"
+        },
+        {
+          "label": "D8WT",
+          "value": "D8WT"
+        },
+        {
+          "label": "D9",
+          "value": "D9"
+        },
+        {
+          "label": "D9A",
+          "value": "D9A"
+        },
+        {
+          "label": "D9L",
+          "value": "D9L"
+        },
+        {
+          "label": "D9T",
+          "value": "D9T"
+        },
+        {
+          "label": "D9W",
+          "value": "D9W"
+        },
+        {
+          "label": "D9WA",
+          "value": "D9WA"
+        },
+        {
+          "label": "D9WL",
+          "value": "D9WL"
+        },
+        {
+          "label": "D9WT",
+          "value": "D9WT"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "FA",
+          "value": "FA"
+        },
+        {
+          "label": "FI",
+          "value": "FI"
+        },
+        {
+          "label": "FIA",
+          "value": "FIA"
+        },
+        {
+          "label": "FIL",
+          "value": "FIL"
+        },
+        {
+          "label": "FIT",
+          "value": "FIT"
+        },
+        {
+          "label": "FL",
+          "value": "FL"
+        },
+        {
+          "label": "FT",
+          "value": "FT"
+        },
+        {
+          "label": "FW",
+          "value": "FW"
+        },
+        {
+          "label": "FWA",
+          "value": "FWA"
+        },
+        {
+          "label": "FWL",
+          "value": "FWL"
+        },
+        {
+          "label": "FWT",
+          "value": "FWT"
+        },
+        {
+          "label": "LB",
+          "value": "LB"
+        },
+        {
+          "label": "LBA",
+          "value": "LBA"
+        },
+        {
+          "label": "LBL",
+          "value": "LBL"
+        },
+        {
+          "label": "LBT",
+          "value": "LBT"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "MA",
+          "value": "MA"
+        },
+        {
+          "label": "ML",
+          "value": "ML"
+        },
+        {
+          "label": "MT",
+          "value": "MT"
+        },
+        {
+          "label": "SW",
+          "value": "SW"
+        },
+        {
+          "label": "SWA",
+          "value": "SWA"
+        },
+        {
+          "label": "SWL",
+          "value": "SWL"
+        },
+        {
+          "label": "SWT",
+          "value": "SWT"
+        },
+        {
+          "label": "VPREV",
+          "value": "VPREV"
+        },
+        {
+          "label": "VPREVA",
+          "value": "VPREVA"
+        },
+        {
+          "label": "VPREVL",
+          "value": "VPREVL"
+        },
+        {
+          "label": "VPREVT",
+          "value": "VPREVT"
+        }
+      ]
+    },
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Publication views Rule",
+    "groupId": "Brief",
+    "id": "rn-postprod",
+    "type": "buttons",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Publication views",
+    "groupId": "Brief",
+    "id": "rv-postprod",
+    "type": "string",
+    "keyword": true,
+    "editField": {
+      "type": "SelectField",
+      "multiselectable": true,
+      "searchable": true,
+      "value": [
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "BA",
+          "value": "BA"
+        },
+        {
+          "label": "BI",
+          "value": "BI"
+        },
+        {
+          "label": "BIA",
+          "value": "BIA"
+        },
+        {
+          "label": "BIL",
+          "value": "BIL"
+        },
+        {
+          "label": "BIT",
+          "value": "BIT"
+        },
+        {
+          "label": "BL",
+          "value": "BL"
+        },
+        {
+          "label": "BT",
+          "value": "BT"
+        },
+        {
+          "label": "BW",
+          "value": "BW"
+        },
+        {
+          "label": "BWA",
+          "value": "BWA"
+        },
+        {
+          "label": "BWL",
+          "value": "BWL"
+        },
+        {
+          "label": "BWT",
+          "value": "BWT"
+        },
+        {
+          "label": "CW",
+          "value": "CW"
+        },
+        {
+          "label": "CWA",
+          "value": "CWA"
+        },
+        {
+          "label": "CWL",
+          "value": "CWL"
+        },
+        {
+          "label": "CWT",
+          "value": "CWT"
+        },
+        {
+          "label": "D1",
+          "value": "D1"
+        },
+        {
+          "label": "D10",
+          "value": "D10"
+        },
+        {
+          "label": "D10A",
+          "value": "D10A"
+        },
+        {
+          "label": "D10L",
+          "value": "D10L"
+        },
+        {
+          "label": "D10T",
+          "value": "D10T"
+        },
+        {
+          "label": "D10W",
+          "value": "D10W"
+        },
+        {
+          "label": "D10WA",
+          "value": "D10WA"
+        },
+        {
+          "label": "D10WL",
+          "value": "D10WL"
+        },
+        {
+          "label": "D10WT",
+          "value": "D10WT"
+        },
+        {
+          "label": "D1A",
+          "value": "D1A"
+        },
+        {
+          "label": "D1L",
+          "value": "D1L"
+        },
+        {
+          "label": "D1T",
+          "value": "D1T"
+        },
+        {
+          "label": "D1W",
+          "value": "D1W"
+        },
+        {
+          "label": "D1WA",
+          "value": "D1WA"
+        },
+        {
+          "label": "D1WL",
+          "value": "D1WL"
+        },
+        {
+          "label": "D1WT",
+          "value": "D1WT"
+        },
+        {
+          "label": "D2",
+          "value": "D2"
+        },
+        {
+          "label": "D2A",
+          "value": "D2A"
+        },
+        {
+          "label": "D2L",
+          "value": "D2L"
+        },
+        {
+          "label": "D2T",
+          "value": "D2T"
+        },
+        {
+          "label": "D2W",
+          "value": "D2W"
+        },
+        {
+          "label": "D2WA",
+          "value": "D2WA"
+        },
+        {
+          "label": "D2WL",
+          "value": "D2WL"
+        },
+        {
+          "label": "D2WT",
+          "value": "D2WT"
+        },
+        {
+          "label": "D3",
+          "value": "D3"
+        },
+        {
+          "label": "D3A",
+          "value": "D3A"
+        },
+        {
+          "label": "D3L",
+          "value": "D3L"
+        },
+        {
+          "label": "D3T",
+          "value": "D3T"
+        },
+        {
+          "label": "D3W",
+          "value": "D3W"
+        },
+        {
+          "label": "D3WA",
+          "value": "D3WA"
+        },
+        {
+          "label": "D3WL",
+          "value": "D3WL"
+        },
+        {
+          "label": "D3WT",
+          "value": "D3WT"
+        },
+        {
+          "label": "D4",
+          "value": "D4"
+        },
+        {
+          "label": "D4A",
+          "value": "D4A"
+        },
+        {
+          "label": "D4L",
+          "value": "D4L"
+        },
+        {
+          "label": "D4T",
+          "value": "D4T"
+        },
+        {
+          "label": "D4W",
+          "value": "D4W"
+        },
+        {
+          "label": "D4WA",
+          "value": "D4WA"
+        },
+        {
+          "label": "D4WL",
+          "value": "D4WL"
+        },
+        {
+          "label": "D4WT",
+          "value": "D4WT"
+        },
+        {
+          "label": "D5",
+          "value": "D5"
+        },
+        {
+          "label": "D5A",
+          "value": "D5A"
+        },
+        {
+          "label": "D5L",
+          "value": "D5L"
+        },
+        {
+          "label": "D5T",
+          "value": "D5T"
+        },
+        {
+          "label": "D5W",
+          "value": "D5W"
+        },
+        {
+          "label": "D5WA",
+          "value": "D5WA"
+        },
+        {
+          "label": "D5WL",
+          "value": "D5WL"
+        },
+        {
+          "label": "D5WT",
+          "value": "D5WT"
+        },
+        {
+          "label": "D6",
+          "value": "D6"
+        },
+        {
+          "label": "D6A",
+          "value": "D6A"
+        },
+        {
+          "label": "D6L",
+          "value": "D6L"
+        },
+        {
+          "label": "D6T",
+          "value": "D6T"
+        },
+        {
+          "label": "D6W",
+          "value": "D6W"
+        },
+        {
+          "label": "D6WA",
+          "value": "D6WA"
+        },
+        {
+          "label": "D6WL",
+          "value": "D6WL"
+        },
+        {
+          "label": "D6WT",
+          "value": "D6WT"
+        },
+        {
+          "label": "D7",
+          "value": "D7"
+        },
+        {
+          "label": "D7A",
+          "value": "D7A"
+        },
+        {
+          "label": "D7L",
+          "value": "D7L"
+        },
+        {
+          "label": "D7T",
+          "value": "D7T"
+        },
+        {
+          "label": "D7W",
+          "value": "D7W"
+        },
+        {
+          "label": "D7WA",
+          "value": "D7WA"
+        },
+        {
+          "label": "D7WL",
+          "value": "D7WL"
+        },
+        {
+          "label": "D7WT",
+          "value": "D7WT"
+        },
+        {
+          "label": "D8",
+          "value": "D8"
+        },
+        {
+          "label": "D8A",
+          "value": "D8A"
+        },
+        {
+          "label": "D8L",
+          "value": "D8L"
+        },
+        {
+          "label": "D8T",
+          "value": "D8T"
+        },
+        {
+          "label": "D8W",
+          "value": "D8W"
+        },
+        {
+          "label": "D8WA",
+          "value": "D8WA"
+        },
+        {
+          "label": "D8WL",
+          "value": "D8WL"
+        },
+        {
+          "label": "D8WT",
+          "value": "D8WT"
+        },
+        {
+          "label": "D9",
+          "value": "D9"
+        },
+        {
+          "label": "D9A",
+          "value": "D9A"
+        },
+        {
+          "label": "D9L",
+          "value": "D9L"
+        },
+        {
+          "label": "D9T",
+          "value": "D9T"
+        },
+        {
+          "label": "D9W",
+          "value": "D9W"
+        },
+        {
+          "label": "D9WA",
+          "value": "D9WA"
+        },
+        {
+          "label": "D9WL",
+          "value": "D9WL"
+        },
+        {
+          "label": "D9WT",
+          "value": "D9WT"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "FA",
+          "value": "FA"
+        },
+        {
+          "label": "FI",
+          "value": "FI"
+        },
+        {
+          "label": "FIA",
+          "value": "FIA"
+        },
+        {
+          "label": "FIL",
+          "value": "FIL"
+        },
+        {
+          "label": "FIT",
+          "value": "FIT"
+        },
+        {
+          "label": "FL",
+          "value": "FL"
+        },
+        {
+          "label": "FT",
+          "value": "FT"
+        },
+        {
+          "label": "FW",
+          "value": "FW"
+        },
+        {
+          "label": "FWA",
+          "value": "FWA"
+        },
+        {
+          "label": "FWL",
+          "value": "FWL"
+        },
+        {
+          "label": "FWT",
+          "value": "FWT"
+        },
+        {
+          "label": "LB",
+          "value": "LB"
+        },
+        {
+          "label": "LBA",
+          "value": "LBA"
+        },
+        {
+          "label": "LBL",
+          "value": "LBL"
+        },
+        {
+          "label": "LBT",
+          "value": "LBT"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "MA",
+          "value": "MA"
+        },
+        {
+          "label": "ML",
+          "value": "ML"
+        },
+        {
+          "label": "MT",
+          "value": "MT"
+        },
+        {
+          "label": "SW",
+          "value": "SW"
+        },
+        {
+          "label": "SWA",
+          "value": "SWA"
+        },
+        {
+          "label": "SWL",
+          "value": "SWL"
+        },
+        {
+          "label": "SWT",
+          "value": "SWT"
+        },
+        {
+          "label": "VPREV",
+          "value": "VPREV"
+        },
+        {
+          "label": "VPREVA",
+          "value": "VPREVA"
+        },
+        {
+          "label": "VPREVL",
+          "value": "VPREVL"
+        },
+        {
+          "label": "VPREVT",
+          "value": "VPREVT"
+        }
+      ]
+    },
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Size Codes",
+    "groupId": "Product Info",
+    "id": "p-sizeCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Size Conversion Code",
+    "groupId": "Product Info",
+    "id": "p-sizeConversionCode",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Size Descriptions",
+    "groupId": "Product Info",
+    "id": "p-sizeDesc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Shoot Size",
+    "groupId": "Brief",
+    "id": "rv-size",
+    "type": "string",
+    "keyword": true,
+    "editField": {
+      "type": "SelectField",
+      "value": [
+        {
+          "label": "XS",
+          "value": "XS"
+        },
+        {
+          "label": "S",
+          "value": "S"
+        },
+        {
+          "label": "S/M",
+          "value": "S/M"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "M/L",
+          "value": "M/L"
+        },
+        {
+          "label": "L",
+          "value": "L"
+        },
+        {
+          "label": "XL",
+          "value": "XL"
+        },
+        {
+          "label": "XLLON",
+          "value": "XLLON"
+        },
+        {
+          "label": "XLSHO",
+          "value": "XLSHO"
+        },
+        {
+          "label": "XXL",
+          "value": "XXL"
+        },
+        {
+          "label": "0A",
+          "value": "0A"
+        },
+        {
+          "label": "0B",
+          "value": "0B"
+        },
+        {
+          "label": "0C",
+          "value": "0C"
+        },
+        {
+          "label": "0D",
+          "value": "0D"
+        },
+        {
+          "label": "1A",
+          "value": "1A"
+        },
+        {
+          "label": "1B",
+          "value": "1B"
+        },
+        {
+          "label": "1C",
+          "value": "1C"
+        },
+        {
+          "label": "1D",
+          "value": "1D"
+        },
+        {
+          "label": "1E",
+          "value": "1E"
+        },
+        {
+          "label": "2A",
+          "value": "2A"
+        },
+        {
+          "label": "2B",
+          "value": "2B"
+        },
+        {
+          "label": "2C",
+          "value": "2C"
+        },
+        {
+          "label": "2D",
+          "value": "2D"
+        },
+        {
+          "label": "2E",
+          "value": "2E"
+        },
+        {
+          "label": "2F",
+          "value": "2F"
+        },
+        {
+          "label": "3A",
+          "value": "3A"
+        },
+        {
+          "label": "3B",
+          "value": "3B"
+        },
+        {
+          "label": "3C",
+          "value": "3C"
+        },
+        {
+          "label": "3D",
+          "value": "3D"
+        },
+        {
+          "label": "3E",
+          "value": "3E"
+        },
+        {
+          "label": "3F",
+          "value": "3F"
+        },
+        {
+          "label": "4A",
+          "value": "4A"
+        },
+        {
+          "label": "4B",
+          "value": "4B"
+        },
+        {
+          "label": "4C",
+          "value": "4C"
+        },
+        {
+          "label": "4D",
+          "value": "4D"
+        },
+        {
+          "label": "4E",
+          "value": "4E"
+        },
+        {
+          "label": "4F",
+          "value": "4F"
+        },
+        {
+          "label": "5A",
+          "value": "5A"
+        },
+        {
+          "label": "5B",
+          "value": "5B"
+        },
+        {
+          "label": "5C",
+          "value": "5C"
+        },
+        {
+          "label": "5D",
+          "value": "5D"
+        },
+        {
+          "label": "5E",
+          "value": "5E"
+        },
+        {
+          "label": "5F",
+          "value": "5F"
+        },
+        {
+          "label": "6A",
+          "value": "6A"
+        },
+        {
+          "label": "6B",
+          "value": "6B"
+        },
+        {
+          "label": "6C",
+          "value": "6C"
+        },
+        {
+          "label": "6D",
+          "value": "6D"
+        },
+        {
+          "label": "6E",
+          "value": "6E"
+        },
+        {
+          "label": "6F",
+          "value": "6F"
+        },
+        {
+          "label": "1/2",
+          "value": "1/2"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "1/2",
+          "value": "1/2"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3",
+          "value": "3"
+        },
+        {
+          "label": "3/4",
+          "value": "3/4"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "6",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9",
+          "value": "9"
+        },
+        {
+          "label": "10",
+          "value": "10"
+        },
+        {
+          "label": "10M",
+          "value": "10M"
+        },
+        {
+          "label": "10MZ",
+          "value": "10MZ"
+        },
+        {
+          "label": "11",
+          "value": "11"
+        },
+        {
+          "label": "11M",
+          "value": "11M"
+        },
+        {
+          "label": "11MZ",
+          "value": "11MZ"
+        },
+        {
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "label": "12M",
+          "value": "12M"
+        },
+        {
+          "label": "12MZ",
+          "value": "12MZ"
+        },
+        {
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "label": "14",
+          "value": "14"
+        },
+        {
+          "label": "0-2",
+          "value": "0-2"
+        },
+        {
+          "label": "0-4",
+          "value": "0-4"
+        },
+        {
+          "label": "0-6",
+          "value": "0-6"
+        },
+        {
+          "label": "2-4",
+          "value": "2-4"
+        },
+        {
+          "label": "3-4",
+          "value": "3-4"
+        },
+        {
+          "label": "4-6",
+          "value": "4-6"
+        },
+        {
+          "label": "4-8",
+          "value": "4-8"
+        },
+        {
+          "label": "5-6",
+          "value": "5-6"
+        },
+        {
+          "label": "5-8",
+          "value": "5-8"
+        },
+        {
+          "label": "6-8",
+          "value": "6-8"
+        },
+        {
+          "label": "6-12",
+          "value": "6-12"
+        },
+        {
+          "label": "7-8",
+          "value": "7-8"
+        },
+        {
+          "label": "8-10",
+          "value": "8-10"
+        },
+        {
+          "label": "8-12",
+          "value": "8-12"
+        },
+        {
+          "label": "9-10",
+          "value": "9-10"
+        },
+        {
+          "label": "9-13",
+          "value": "9-13"
+        },
+        {
+          "label": "10-13",
+          "value": "10-13"
+        },
+        {
+          "label": "11-12",
+          "value": "11-12"
+        },
+        {
+          "label": "12-18",
+          "value": "12-18"
+        },
+        {
+          "label": "15-18",
+          "value": "15-18"
+        },
+        {
+          "label": "19-21",
+          "value": "19-21"
+        },
+        {
+          "label": "22-24",
+          "value": "22-24"
+        },
+        {
+          "label": "25-27",
+          "value": "25-27"
+        },
+        {
+          "label": "25-30",
+          "value": "25-30"
+        },
+        {
+          "label": "28-30",
+          "value": "28-30"
+        },
+        {
+          "label": "31-33",
+          "value": "31-33"
+        },
+        {
+          "label": "31-36",
+          "value": "31-36"
+        },
+        {
+          "label": "34-36",
+          "value": "34-36"
+        },
+        {
+          "label": "35-37",
+          "value": "35-37"
+        },
+        {
+          "label": "37-39",
+          "value": "37-39"
+        },
+        {
+          "label": "37-41",
+          "value": "37-41"
+        },
+        {
+          "label": "38-40",
+          "value": "38-40"
+        },
+        {
+          "label": "40-41",
+          "value": "40-41"
+        },
+        {
+          "label": "41-43",
+          "value": "41-43"
+        },
+        {
+          "label": "42-43",
+          "value": "42-43"
+        },
+        {
+          "label": "44-45",
+          "value": "44-45"
+        },
+        {
+          "label": "44-46",
+          "value": "44-46"
+        },
+        {
+          "label": "46-47",
+          "value": "46-47"
+        },
+        {
+          "label": "TU",
+          "value": "TU"
+        }
+      ]
+    },
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Shoot Size Rule",
+    "groupId": "Brief",
+    "id": "rn-size",
+    "type": "buttons",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Order Size",
+    "groupId": "Brief",
+    "id": "rv-selectedSize",
+    "type": "string",
+    "keyword": true,
+    "sortable": false
+  },
+  {
+    "label": "Order SKU",
+    "groupId": "Brief",
+    "id": "rv-selectedSku",
+    "type": "string",
+    "keyword": true,
+    "sortable": false
+  },
+  {
+    "label": "Size Matched",
+    "groupId": "Brief",
+    "id": "rv-matchedSize",
+    "type": "icon",
+    "keyword": true,
+    "sortable": false
+  },
+  {
+    "label": "SKUs",
+    "groupId": "Product Info",
+    "id": "p-sku",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Inbound Date",
+    "groupId": "Brief",
+    "id": "u-inbound",
+    "type": "simpledate",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Outbound Date",
+    "groupId": "Brief",
+    "id": "u-outbound",
+    "type": "simpledate",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Delivery Status",
+    "groupId": "Brief",
+    "id": "rv-deliveryStatus",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Delivery Date",
+    "groupId": "Brief",
+    "id": "u-deliveryStartDate",
+    "type": "simpledate",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Shipping Date",
+    "groupId": "Brief",
+    "id": "u-shippingDate",
+    "type": "simpledate",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Flash Flag",
+    "groupId": "Brief",
+    "id": "u-flashFlag",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Start Date (variant)",
+    "groupId": "Product Info",
+    "id": "p-varStartDate",
+    "type": "simpledate",
+    "keyword": false,
+    "dateFormat": "yyyy/mm/dd",
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Style",
+    "groupId": "Product Info",
+    "id": "p-style",
+    "type": "string",
+    "keyword": true,
+    "details": true
+  },
+  {
+    "label": "Product",
+    "groupId": "Product Info",
+    "id": "p-stylecolor",
+    "type": "string",
+    "keyword": true,
+    "details": true
+  },
+  {
+    "label": "ToDo Done",
+    "groupId": "System",
+    "id": "s-todoDone",
+    "type": "simpledate",
+    "keyword": false,
+    "dateFormat": "yyyy/mm/dd",
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "ToDo Schedule",
+    "groupId": "System",
+    "id": "s-todoSchedule",
+    "type": "simpledate",
+    "keyword": false,
+    "dateFormat": "yyyy/mm/dd",
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "ToDo Status",
+    "groupId": "System",
+    "id": "s-todoStatus",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "UPC",
+    "groupId": "Product Info",
+    "id": "p-upc",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Version",
+    "groupId": "System",
+    "id": "s-version",
+    "type": "string",
+    "keyword": false,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Weight Unit",
+    "groupId": "Product Info",
+    "id": "p-weightUnit",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  },
+  {
+    "label": "Year",
+    "groupId": "Product Info",
+    "id": "p-seasonYear",
+    "type": "string",
+    "keyword": true,
+    "sortable": false,
+    "details": true
+  }
+]

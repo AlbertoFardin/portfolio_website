@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "outDir": "./built",
+    "declaration": true,
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": false,
+    "module": "esnext",
+    "target": "ES2019",
+    "jsx": "react",
+    "rootDirs": ["src", "stories"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2019", "dom", "es5", "es6"]
+  },
+  "exclude": ["build", "products", "package", "bucket"]
+}

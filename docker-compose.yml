@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  elasticsearch:
+    labels:
+      - "custom.project=seecommerce2ui"
+      - "custom.service=elasticsearch1"
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.12.0
+    restart: always
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      - discovery.type=single-node
+    deploy:
+      resources:
+        limits:
+          memory: '4gb'
+    volumes:
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml

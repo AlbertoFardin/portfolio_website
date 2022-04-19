@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F6F6F6;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st2{fill:#FADCEB;stroke:#E6007E;stroke-width:0.5;stroke-miterlimit:10;}
+	.st3{font-family:'Avenir-Roman';}
+	.st4{font-size:19.4191px;}
+	.st5{font-size:14px;}
+	.st6{fill:#D2CFE7;stroke:#2D2E83;stroke-width:0.5;stroke-miterlimit:10;}
+	.st7{fill:#E2EED9;stroke:#3AAA35;stroke-width:0.5;stroke-miterlimit:10;}
+	.st8{fill:#FDE0D0;stroke:#E94E1B;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<rect x="25.2" y="34.3" class="st0" width="801.4" height="536.6"/>
+<rect x="35.2" y="64.6" class="st1" width="781.4" height="39.1"/>
+<rect x="35.2" y="113.7" class="st0" width="781.4" height="447.3"/>
+<rect x="157" y="123.7" class="st1" width="649.7" height="427.3"/>
+<rect x="45.2" y="123.7" class="st2" width="101.7" height="427.3"/>
+<text transform="matrix(1 0 0 1 399.3706 54.3324)" class="st3 st4">Main</text>
+<text transform="matrix(1 0 0 1 365.5423 88.5474)" class="st3 st4">MainToolbar</text>
+<text transform="matrix(1 0 0 1 442.7207 153.7)" class="st3 st4">Viewport</text>
+<text transform="matrix(1 0 0 1 78.865 351.7361)" class="st3 st5">Panel</text>
+<text transform="matrix(1 0 0 1 56.265 368.5361)" class="st3 st5">Notifications</text>
+<rect x="167" y="173.7" class="st6" width="101.7" height="367.3"/>
+<rect x="695" y="173.7" class="st7" width="101.7" height="367.3"/>
+<rect x="278.7" y="173.7" class="st8" width="406.3" height="367.3"/>
+<rect x="288.7" y="223.7" class="st0" width="386.3" height="30"/>
+<text transform="matrix(1 0 0 1 446.2163 203.6742)" class="st3 st4">Content</text>
+<text transform="matrix(1 0 0 1 416.8941 243.6742)" class="st3 st4">ToolbarHeader</text>
+<rect x="288.7" y="500.9" class="st0" width="386.3" height="30"/>
+<rect x="288.7" y="263.7" class="st1" width="386.3" height="227.3"/>
+<text transform="matrix(1 0 0 1 419.9236 520.9427)" class="st3 st4">ToolbarFooter</text>
+<text transform="matrix(1 0 0 1 467.1112 351.7362)" class="st3 st4">List</text>
+<g>
+	<text transform="matrix(1 0 0 1 715.3739 351.7362)" class="st3 st5">EastPanel</text>
+</g>
+<text transform="matrix(1 0 0 1 200.5909 351.7366)" class="st3 st5">Panel</text>
+<text transform="matrix(1 0 0 1 198.7909 368.5366)" class="st3 st5">Filters</text>
+</svg>

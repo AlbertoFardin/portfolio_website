@@ -1,0 +1,44 @@
+{
+  "hits": {
+    "total": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "aggr": {
+      "buckets": [
+        {
+          "key": "approval2",
+          "label": "Approval All",
+          "doc_count": 1
+        },
+        {
+          "key": "approval1",
+          "label": "Approval Default",
+          "doc_count": 3
+        },
+        {
+          "key": "waiting",
+          "label": "Awaiting brief",
+          "doc_count": 1496
+        },
+        {
+          "key": "postproduction1",
+          "label": "Post-Production Default",
+          "doc_count": 3
+        },
+        {
+          "key": "shooting",
+          "label": "Shooting",
+          "doc_count": 4
+        },
+        {
+          "key": "toshoot",
+          "label": "To be Shot",
+          "doc_count": 14776
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    }
+  }
+}
