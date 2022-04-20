@@ -9,8 +9,6 @@ module.exports = merge(common, {
   devServer: {
     https: true,
     hot: true,
-    // disabilito il ricaricamento automatico della pagina
-    // per evitare ricaricamenti non voluti
     liveReload: false,
     static: {
       directory: path.join(__dirname, './'),

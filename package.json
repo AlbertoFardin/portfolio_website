@@ -9,9 +9,8 @@
     "check": "npm run check:eslint && npm run check:jest",
     "check:eslint": "eslint -c .eslintrc.js 'src/**/*.ts?(x)' && echo \"eslint: no lint errors\"",
     "check:jest": "jest ./src/** --detectOpenHandles",
-    "dev": "npm run write:version dev && rm -Rf bucket && webpack serve --profile --progress --config ./webpack.config.dev.js",
-    "write:version": "./scripts/writeVersion.sh",
-    "build": "rm -Rf bucket && mkdir bucket && webpack --profile --progress --config webpack.config.prod.js"
+    "dev": "npm run write:version dev && rm -Rf bucket && webpack serve --profile --progress --config ./webpack.config.js",
+    "write:version": "./scripts/writeVersion.sh"
   },
   "repository": "https://github.com/AlbertoFardin/portfolio_website",
   "authors": "prevalentementealberto@gmail.com",
